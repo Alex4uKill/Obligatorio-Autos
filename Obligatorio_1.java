@@ -9,38 +9,12 @@ public class Obligatorio_1 {
    
 
     
-   // Scanner in = new Scanner(System.in);
+    
 
     public static void main(String[] args) {
-       
-      /*  Scanner in = new Scanner(System.in);
-        System.out.println("dimension");
-        int dim = in.nextInt();
-        */String borde=" +----+----+----+----+----+";
-        String centro = "|    |    |    |    |    |";
-        String [] letras={"A","B","C","D","E","F","G"};
-        int [] numeros={1,2,3,4,5,6,7};
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 5 && i==0; j++) {
-                System.out.print("  "+numeros[j]+"  ");
-                if(j==4){
-                    System.out.println("");
-                }
-            }
-            System.out.println(borde);
-            for (int j = 0; j < 1; j++) {
-                System.out.println(letras[i] + centro);
-                System.out.println(" "+centro);
-                System.out.println(" "+centro);
-                System.out.println(" "+centro);
-            }
-            
-            
-        }
-        System.out.println(borde);
+      
         
-        /*
-        
+        Scanner in = new Scanner(System.in);
         int opcion;
 
         do {
@@ -51,7 +25,7 @@ public class Obligatorio_1 {
             System.out.println("4. Ranking");
             System.out.println("5. Fin");
             System.out.print("Ingrese su opcion: ");
-            opcion = scanner.nextInt();
+            opcion = in.nextInt();
 
             switch (opcion) {
                 case 1:
@@ -88,7 +62,7 @@ public class Obligatorio_1 {
 
     private static void mostrarRanking() {
         
-    }*/
+    }
 }}
 
     
